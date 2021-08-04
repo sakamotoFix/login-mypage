@@ -62,7 +62,6 @@ h2{
     text-align: right;
     margin: 25px;
 }
-
 .comments {
     border-top: 1px dotted lightgray;
     padding-top: 15px;
@@ -79,7 +78,6 @@ h2{
     color: #999;
     background-color: #fff;
 }
-
 .buttons{
     text-align: center;
 }
