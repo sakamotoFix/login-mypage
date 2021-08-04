@@ -25,7 +25,6 @@ $stmt->execute();
 //データベースを切断
 $pdo=NULL;
 
-
 //fetch・while文でデータ取得し、sessionに代入
 
 while($row = $stmt->fetch()){
@@ -56,11 +55,6 @@ if(!empty($_SESSION['id']) && !empty($_SESSION['login_keep'])){
     setcookie('password','',time()-1);
     setcookie('login_keep','',time()-1);
 }
-
-/* if(isset($_POST['checkbox'])){    
-setcookie('mail',$_POST['mail'],time()+60*60*24*7);
-setcookie('password',$_POST['password'],time()+60*60*24*7); */
-
 ?>
 
 
@@ -79,7 +73,6 @@ setcookie('password',$_POST['password'],time()+60*60*24*7); */
     <img src="4eachblog_logo.jpg">
     <div class="log_out"><a href="log_out.php">ログアウト</a></div>
 </header>
-
 
 <main>
     <div class="box">
